@@ -1,0 +1,1 @@
+export const backend_Url = "https://portfolio-backend-bice-mu.vercel.app"

@@ -1,0 +1,82 @@
+.navber{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    /* height:600px; */
+  }
+  nav{
+    /* position: relative; */
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    /* z-index: 1000; */
+  }
+  .left{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    color: #3dcfd3;
+    /* margin-right: 3rem; */
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 1s;
+  }
+  nav ul li a{
+    color: var(--white--);
+    text-decoration: none;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    padding: 0.6rem 1.8rem;
+    border: 2px solid transparent;
+    transition: 1s;
+    outline: none;
+  }
+  nav ul li.active a{
+    /* color: #3dcfd3; */
+    border-color: #3dcfd3;
+  }
+  nav ul li a:hover{
+    color: #3dcfd3 !important;
+    border-color: #3dcfd3;
+  }
+  .active{
+    border-color: #3dcfd3;
+  }
+  .btn{
+    /* display: inline-block; */
+    padding: 0.6rem 1.8rem;
+    background: #3dcfd3;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: #000;
+    outline: none;
+    text-transform: uppercase;
+    transition: 1s;
+  }
+  .btn:hover{
+    background: transparent;
+    border-color: #3dcfd3;
+    color: var(--white--);
+  }
+  
+  .humberger{
+    color: #00FFFF;
+    font-size: 2rem;
+    display: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }

@@ -1,0 +1,18 @@
+.login-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.left-box{
+    flex-basis: 50%;
+}
+
+.right-box{
+    flex-basis: 50%;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

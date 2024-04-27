@@ -1,0 +1,286 @@
+
+/*------------------------------------------- Header---------------------------------------------- */
+.container {
+  position: relative;
+  /* background: #000; */
+  background-image: url("./pages/code.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 70% 75%, 0% 90%);
+}
+.row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col-1 {
+  width: max(290px, 48%);
+  color: var(--white--);
+  display: flex;
+  justify-content: flex-end;
+}
+.col-1 img {
+  width: max(320px, 42%);
+  margin-top: 80px;
+  margin-left: auto;
+}
+.col-1 h1 {
+  line-height: 3.3rem;
+  font-weight: 300;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+.col-1 h4 {
+  margin-top: 140px;
+  line-height: 3rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: var(--maincolor);
+}
+.col-1 p {
+  line-height: 1.3rem;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+span {
+  color: var(--maincolor);
+}
+.col-1 .btn {
+  margin-top: 3rem;
+}
+
+.hero-heading h4{
+    text-transform: capitalize;
+
+}
+
+/*------------------------------------------ About Section------------------------------------------ */
+
+.mid-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 0;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.col-2 {
+  max-width: 50%;
+  /* align-items: center; */
+  /* justify-content: flex-end; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
+}
+.col-2 img {
+  max-width: 90%;
+}
+.col-2 h1 {
+  line-height: 3.3rem;
+  font-weight: 300;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+.col-2 h2 {
+  /* margin-top: 140px; */
+  line-height: 1rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: var(--maincolor);
+  text-transform: capitalize;
+}
+.para {
+  max-width: 90%;
+}
+.col-2 p {
+  line-height: 1.3rem;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  /* padding-bottom: 1rem; */
+}
+
+/*------------------------------- Skills section *-------------------------------------------*/
+
+.shills-container {
+  /* position: relative; */
+  /* max-width: 90%; */
+  /* margin: 0 auto; */
+  background: whitesmoke;
+  /* height: 800px; */
+}
+.shills-container h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.small-container {
+  width: 80%;
+  /* height: 100%; */
+  margin: 0 auto;
+  display: flex;
+  padding: 0px 0 40px 0;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.box {
+  position: relative;
+  min-width: 300px;
+  min-height: 200px;
+  box-shadow: -5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin: 2.5rem 1rem;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.box:hover {
+  background: #000;
+  color: #fff;
+}
+.inner-box {
+  width: 40%;
+  height: 50%;
+  background: #00ffff;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  /* font-size: 4rem; */
+}
+.inner-box i{
+  font-size: 4rem;
+}
+.skills-heading-detail{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.detail i{
+  font-size: 4rem;
+}
+
+/* <i class="fas fa-paint-brush"></i> */
+.fab {
+  font-size: 4rem;
+}
+.fas {
+  font-size: 4rem;
+}
+
+/* -----------------------------------------work-------------------------------------- */
+.work-container{
+  background: whitesmoke;
+}
+.work-container h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.work-heading-detail{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+.work-box{
+  /* flex-basis: 33%; */
+  max-width: 330px;
+}
+/* ----------------------------------------about---------------------------------------- */
+.about-link-icon i{
+  font-size: 2rem;
+}
+
+/* --------------------------------Contact------------------------------------------- */
+
+/* .contact-container{
+    height: 700px;
+  } */
+.contact-container h1 {
+  text-align: center;
+  padding: 60px 0 0px 0;
+  font-size: 2.5rem;
+}
+.contact-box {
+  /* position: relative; */
+  min-width: 300px;
+  min-height: 200px;
+  /* box-shadow: -5px 10px 10px 5px rgba(0, 0, 0, 0.1); */
+  /* background: #fff; */
+  margin: 2.5rem 1rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.ifont {
+  font-size: 5rem;
+}
+.input-box {
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.inner-input-box {
+  width: 100%;
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-between;
+}
+.input-box .btn {
+  display: inline-block;
+}
+.inner-input {
+  width: 48%;
+  margin-bottom: 15px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 1rem;
+  /* margin-left: 30px; */
+}
+textarea {
+  width: 100%;
+  height: 190px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+/* <---------------------------work --------------------------------> */
+/* .workbox{
+  width: 400px;
+}
+
+.work-small-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0px 0 40px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.noWrap{ 
+  white-space: nowrap !important
+} */
+
+.ant-descriptions-bordered.ant-descriptions-small .ant-descriptions-item-label{
+  white-space: nowrap !important;
+}
